@@ -4,7 +4,7 @@ body{
     width: 100vw;
     transition: 0.2s linear;
     font-family: sans-serif;
-    background-color: #c9c9c9;
+    background-color: #FFC733;
 }
 
 .container{
@@ -19,7 +19,6 @@ body{
     width: 350px;
     height: 50px;
     border-radius: 10px;
-    /* background-color: gray; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,15 +26,19 @@ body{
 
 .color__btn{
     height: 40px;
-    width: 100px;
+    width: 120px;
     border-radius: 20px;
     border: 1px black solid;
     text-align: center;
+    background-color: #FFC733;
+    transition: 0.2s linear;
+    text-transform: uppercase;
+    color: white;
 }
 
 .color__text {
     height: 40px;
-    width: 100px;
+    width: 120px;
     border-radius: 20px;
     border: 1px black solid;
     display: flex;

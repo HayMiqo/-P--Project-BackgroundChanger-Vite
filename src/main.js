@@ -18,5 +18,5 @@ colorChangeBtn.addEventListener('click', () => {
 
   document.body.style.background = colors[randomIndex]
   colorText.textContent = colors[randomIndex]
-  colorChangeBtn.textContent = colors[randomIndex]
+  colorChangeBtn.style.background = colors[randomIndex]
 })
